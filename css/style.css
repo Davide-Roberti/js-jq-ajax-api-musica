@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1e2d3b;
+}
+
+header {
+    background-color: rgb(46,58,70);
+    height: 70px;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
