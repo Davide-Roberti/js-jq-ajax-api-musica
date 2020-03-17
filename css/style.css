@@ -17,3 +17,8 @@ header {
     width: 80%;
     margin: 0 auto;
 }
+
+header img {
+    height: 50px;
+    margin: 10px 0;
+}
