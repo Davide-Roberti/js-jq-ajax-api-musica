@@ -6,6 +6,7 @@
 
 body {
     background-color: #1e2d3b;
+    font-family: sans-serif;
 }
 
 header {
@@ -21,4 +22,32 @@ header {
 header img {
     height: 50px;
     margin: 10px 0;
+}
+
+.card-container {
+    padding: 50px 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card-album {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(46,58,70);
+    padding: 10px;
+    border-radius: 5px;
+    align-items: center;
+    height: 200px;
+    color: #808080;
+    flex-basis: 150px;
+    font-size: 12px;
+}
+
+.card-album p {
+    color: white;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 10px 0 20px;
 }
