@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <title>Musica</title>
         <link rel="stylesheet" href="css/style.css">
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.7.3/handlebars.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.7.3/handlebars.min.js" charset="utf-8"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     </head>
     <body>
@@ -15,14 +15,23 @@
         </header>
         <main>
             <div class="container card-container">
-                <div class="card-album">
+                <!-- <div class="card-album">
                     <img src="https://www.onstageweb.com/wp-content/uploads/2018/09/bon-jovi-new-jersey.jpg" alt="cover">
                     <p>titolo</p>
                     <span>autore</span>
                     <span>anno</span>
-                </div>
+                </div> -->
             </div>
         </main>
+
+        <script id="card-template" type="text/x-handlebars-template">
+            <div class="card-album">
+                <img src="{{coverAlbum}}" alt="cover">
+                <p>{{titoloAlbum}}</p>
+                <span>{{autoreAlbum}}</span>
+                <span>{{annoAlbum}}</span>
+            </div>
+		</script>
 
         <script src="js/main.js" charset="utf-8"></script>
     </body>
