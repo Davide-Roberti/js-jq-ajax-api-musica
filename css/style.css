@@ -29,6 +29,7 @@ header img {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    width: 70%;
 }
 
 .card-album {
@@ -38,9 +39,9 @@ header img {
     padding: 10px;
     border-radius: 5px;
     align-items: center;
-    height: 250px;
+    height: 300px;
     color: #808080;
-    flex-basis: 150px;
+    flex-basis: 200px;
     font-size: 12px;
     margin: 10px;
 }
@@ -51,6 +52,7 @@ header img {
     font-size: 15px;
     font-weight: bold;
     margin: 10px 0 20px;
+    text-align: center;
 }
 
 .card-album img {
