@@ -1,6 +1,22 @@
 var source = $("#card-template").html();
 var template = Handlebars.compile(source);
 
+$('.selettore-genere').change(function(){
+    var selezionato = $(this).val();
+    // console.log(selezionato);
+    if (selezionato == '') {
+        $('.card-album').show();
+    } else {
+        $('.card-album').each(function () {
+            if (selezionato.toLowerCase() == $(this).data('genere').toLowerCase()) {
+                $(this).show();
+            } else {
+                $(this).hide();
+            };
+        });
+    }
+});
+
 $.ajax({
     url: 'https://flynn.boolean.careers/exercises/api/array/music',
     method: 'GET',

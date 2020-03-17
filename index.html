@@ -16,10 +16,10 @@
         <main>
             <select class="selettore-genere" name="">
                 <option value="">Filtra per genere</option>
-                <option value="rock">Rock</option>
-                <option value="metal">Metal</option>
-                <option value="pop">Pop</option>
-                <option value="jazz">Jazz</option>
+                <option value="Rock">Rock</option>
+                <option value="Metal">Metal</option>
+                <option value="Pop">Pop</option>
+                <option value="Jazz">Jazz</option>
             </select>
             <div class="container card-container">
                 <!-- <div class="card-album">
@@ -32,7 +32,7 @@
         </main>
 
         <script id="card-template" type="text/x-handlebars-template">
-            <div class="card-album">
+            <div class="card-album" data-genere="{{genereAlbum}}">
                 <img src="{{coverAlbum}}" alt="cover">
                 <p>{{titoloAlbum}}</p>
                 <span>{{autoreAlbum}}</span>
