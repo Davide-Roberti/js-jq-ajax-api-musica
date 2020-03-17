@@ -58,3 +58,8 @@ header img {
 .card-album img {
     width: 95%;
 }
+
+select.selettore-genere {
+    display: block;
+    margin: 0 auto;
+}
