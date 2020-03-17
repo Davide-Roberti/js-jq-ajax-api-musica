@@ -38,10 +38,11 @@ header img {
     padding: 10px;
     border-radius: 5px;
     align-items: center;
-    height: 200px;
+    height: 250px;
     color: #808080;
     flex-basis: 150px;
     font-size: 12px;
+    margin: 10px;
 }
 
 .card-album p {
@@ -50,4 +51,8 @@ header img {
     font-size: 15px;
     font-weight: bold;
     margin: 10px 0 20px;
+}
+
+.card-album img {
+    width: 95%;
 }
